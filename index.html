@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SYNAPSO - Polo Cuidare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">SYNAPSO</div>
+    <nav>
+      <a href="#">INÍCIO</a>
+      <a href="#">FÓRUM</a>
+      <a href="#">NOTÍCIAS</a>
+      <a href="#">PERFIL</a>
+    </nav>
+    <input type="text" placeholder="Buscar">
+  </header>
+
+  <main>
+    <section class="noticia">
+      <h1>Polo Cuidare Neurodivergente é inaugurado em Piau</h1>
+      <p class="fonte">Fonte e fotos: Prefeitura de Piau</p>
+      <img src="img1.jpg" alt="Inauguração do polo">
+    </section>
+
+    <section class="conteudo">
+      <p>
+        Piau deu um passo histórico com a implantação do Polo Cuidare Neurodivergente. 
+        O município é o primeiro da Zona da Mata a contar com o projeto, tornando-se 
+        referência na promoção da saúde mental, com acolhimento especializado a crianças 
+        e pré-adolescentes com diagnóstico de Transtorno do Espectro Autista (TEA).
+      </p>
+
+      <p>
+        A iniciativa conta com várias parcerias, como o Instituto Soul, Fundo da Infância e 
+        Adolescência de Piau, Projeto Formando Cidadãos, a Câmara Municipal, entre outros.
+      </p>
+
+      <div class="galeria">
+        <img src="img2.jpg" alt="Palestra">
+        <img src="img3.jpg" alt="Participantes">
+        <img src="img4.jpg" alt="Evento">
+      </div>
+    </section>
+
+    <section class="depoimento">
+      <blockquote>
+        “Além de trazer o projeto, é preciso dar todo o suporte para que ele floresça e dê frutos...” 
+        — Prefeito Wander Loures
+      </blockquote>
+    </section>
+
+    <div class="interacoes">
+        <button id="btn-favoritar">⭐ Favoritar</button>
+        <button id="btn-comentar">💬 Comentar</button>
+    </div>
+
+    <div id="comentarios">
+        <h3>Comentários</h3>
+        <textarea id="comentario-input" placeholder="Escreva seu comentário..."></textarea>
+        <button id="enviar-comentario">Enviar</button>
+        <ul id="lista-comentarios"></ul>
+    </div>
+
+
+    <section class="rodape">
+      <p>Projeto SYNAPSO</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
