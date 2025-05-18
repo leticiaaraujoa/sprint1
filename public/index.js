@@ -1,10 +1,12 @@
 const jsonServer = require('json-server')
-const server = jsonServer.create()
+const express = require('express')
+const path = require('path')
+const server = express()
 const router = jsonServer.router('./db/db.json')
 const middlewares = jsonServer.defaults()
-
+server.use(express.static(path.join(__dirname, 'public')))
 server.use(middlewares)
-server.use(router)
+server.use('/api', router)
 server.listen(3000, () => {
-  console.log('JSON Server está em execução!')
+  console.log('Servidor rodando em http://localhost:3000')
 })
