@@ -1,0 +1,13 @@
+{
+  "posts": [
+    { "id": "1", "title": "Polo Cuidare Neurodivergente é inaugurado em Piau", "views": 100 },
+    { "id": "2", "title": "Como incentivar em experimentar outros alimentos?", "views": 200 }
+  ],
+  "comments": [
+    { "id": "1", "text": "Adorei. Irei marcar de ir visitar.", "postId": "1" },
+    { "id": "2", "text": "Ótimas dicas!", "postId": "2" }
+  ],
+  "profile": {
+    "name": "Elena Prado"
+  }
+}
