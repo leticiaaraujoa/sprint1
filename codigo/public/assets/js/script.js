@@ -86,3 +86,4 @@ async function getPosts() {
 window.addEventListener("load", async () => {
   await getPosts();
 });
+
